@@ -2,17 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover" />
   <title>Lead Generation | MMKS Agency</title>
   <meta name="description" content="Generate high quality leads consistently with lead funnels, landing pages, WhatsApp leads, Facebook leads, Google leads and CRM integration." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://mmksagency.example.com/services/lead-generation.html" />
+  <meta property="og:title" content="Lead Generation | MMKS Agency" />
+  <meta property="og:description" content="Lead generation systems for Tamil Nadu businesses using landing pages, WhatsApp, Google and Facebook leads." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mmksagency.example.com/services/lead-generation.html" />
+  <meta property="og:image" content="https://mmksagency.example.com/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="https://mmksagency.example.com/favicon.ico" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.4/css/all.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="../assets/css/style.css" />
+  <style>
+    .accent-orange { color: #ea580c !important; }
+    .bg-accent-orange { background-color: #ea580c !important; }
+    .btn-orange { background-color: #ea580c !important; border-color: #ea580c !important; color: white !important; }
+    .btn-orange:hover { background-color: #d84805 !important; border-color: #d84805 !important; }
+  </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3">
     <div class="container">
-      <a class="navbar-brand" href="../index.html">MMKS Agency</a>
+      <a class="navbar-brand" href="../index.html"><img src="../src/LOGO.png" alt="MMKS Agency" style="height: 40px;"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav ms-auto align-items-lg-center">
@@ -24,91 +39,263 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="../index.html#services" role="button" data-bs-toggle="dropdown">Services</a>
             <ul class="dropdown-menu dropdown-menu-end bg-light border-0 shadow-lg">
-              <li><a class="dropdown-item text-dark" href="social-media-marketing.html">Social Media Marketing</a></li>
-              <li><a class="dropdown-item text-dark" href="seo-services.html">SEO Services</a></li>
-              <li><a class="dropdown-item text-dark" href="meta-ads.html">Meta Ads</a></li>
-              <li><a class="dropdown-item text-dark" href="google-ads.html">Google Ads</a></li>
-              <li><a class="dropdown-item text-dark" href="web-development.html">Web Development</a></li>
-              <li><a class="dropdown-item text-dark" href="branding.html">Branding</a></li>
-              <li><a class="dropdown-item text-dark" href="poster-design.html">Poster Design</a></li>
-              <li><a class="dropdown-item text-dark" href="content-marketing.html">Content Marketing</a></li>
-              <li><a class="dropdown-item text-dark" href="lead-generation.html">Lead Generation</a></li>
-              <li><a class="dropdown-item text-dark" href="ai-solutions.html">AI Solutions</a></li>
+              <li><a class="dropdown-item" href="social-media-marketing.html">Social Media Marketing</a></li>
+              <li><a class="dropdown-item" href="seo-services.html">SEO Services</a></li>
+              <li><a class="dropdown-item" href="meta-ads.html">Meta Ads</a></li>
+              <li><a class="dropdown-item" href="google-ads.html">Google Ads</a></li>
+              <li><a class="dropdown-item" href="web-development.html">Web Development</a></li>
+              <li><a class="dropdown-item" href="branding.html">Branding</a></li>
+              <li><a class="dropdown-item" href="poster-design.html">Poster Design</a></li>
+              <li><a class="dropdown-item" href="content-marketing.html">Content Marketing</a></li>
+              <li><a class="dropdown-item" href="lead-generation.html">Lead Generation</a></li>
+              <li><a class="dropdown-item" href="ai-solutions.html">AI Solutions</a></li>
             </ul>
+          </li>
+          <li class="nav-item ms-2">
+            <a href="../contact.html" class="btn btn-primary btn-sm">Get a Free Quote</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-  <main class="py-5">
-    <section class="hero-section text-dark">
+  <main>
+    <!-- Hero Section -->
+    <section class="py-5 mt-5" style="background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);">
       <div class="container">
         <div class="row align-items-center gy-5">
-          <div class="col-lg-7" data-animate>
-            <span class="banner-tag">Service</span>
-            <h1 class="hero-title mt-4">Generate High Quality Leads Consistently</h1>
-            <p class="hero-copy mt-4">MMKS designs lead systems using funnels, landing pages and automation across WhatsApp, Facebook and Google.</p>
-            <div class="d-flex gap-3 flex-wrap mt-4">
-              <a href="../contact.html" class="btn btn-primary btn-lg">Start Lead Generation</a>
-              <a href="#lead-services" class="btn btn-outline-light btn-lg">See Services</a>
-            </div>
+          <div class="col-lg-6">
+            <span class="badge bg-accent-orange text-white mb-3">OUR SERVICE</span>
+            <h1 class="display-3 fw-bold mb-3">Lead<br><span class="accent-orange">Generation</span></h1>
+            <p class="lead text-muted mb-4">Capture. Convert. Close. More Sales.</p>
+            <p class="text-muted mb-4">We design high-converting funnels and campaigns that capture qualified leads, nurture relationships, and accelerate your sales cycle from awareness to conversion.</p>
+            <a href="../contact.html" class="btn btn-orange btn-lg">
+              <i class="fas fa-arrow-right me-2"></i>Generate Your First Leads
+            </a>
           </div>
-          <div class="col-lg-5" data-animate>
-            <div class="card-glass p-4">
-              <h5>Lead Systems</h5>
-              <p class="text-muted">Capture prospects with effective funnels and direct response channels.</p>
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop" alt="Lead Generation" class="img-fluid rounded-lg shadow-lg" style="border-radius: 20px;">
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="lead-services" class="py-5 bg-light">
+    <!-- Stats Section -->
+    <section class="py-5 bg-white">
       <div class="container">
+        <div class="row g-4 text-center">
+          <div class="col-md-3">
+            <div class="p-4">
+              <h3 class="display-4 fw-bold accent-orange mb-2">50K+</h3>
+              <p class="text-muted">Leads Generated</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-4">
+              <h3 class="display-4 fw-bold accent-orange mb-2">12%</h3>
+              <p class="text-muted">Conversion Rate Average</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-4">
+              <h3 class="display-4 fw-bold accent-orange mb-2">$2.5</h3>
+              <p class="text-muted">Cost Per Lead</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-4">
+              <h3 class="display-4 fw-bold accent-orange mb-2">450%</h3>
+              <p class="text-muted">Sales Growth Average</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5 display-5 fw-bold">What We Do</h2>
         <div class="row g-4">
-          <div class="col-md-6" data-animate><div class="card-glass p-4 h-100"><h2 class="section-title">Lead Funnels</h2><p class="text-muted">Funnel design that guides prospects from awareness to contact with clear action steps.</p></div></div>
-          <div class="col-md-6" data-animate><div class="card-glass p-4 h-100"><h2 class="section-title">Landing Pages</h2><p class="text-muted">Conversion-focused landing pages to capture lead information and build trust.</p></div></div>
-          <div class="col-md-6" data-animate><div class="card-glass p-4 h-100"><h2 class="section-title">WhatsApp Leads</h2><p class="text-muted">WhatsApp-first funnels for fast conversation and high lead quality.</p></div></div>
-          <div class="col-md-6" data-animate><div class="card-glass p-4 h-100"><h2 class="section-title">Facebook Leads</h2><p class="text-muted">Lead generation ads optimized for local interest and message responses.</p></div></div>
-          <div class="col-md-6" data-animate><div class="card-glass p-4 h-100"><h2 class="section-title">Google Leads</h2><p class="text-muted">Search and discovery lead strategies to capture prospects actively looking for services.</p></div></div>
-          <div class="col-md-6" data-animate><div class="card-glass p-4 h-100"><h2 class="section-title">CRM Integration</h2><p class="text-muted">Connect leads to your CRM for seamless follow-up and pipeline management.</p></div></div>
+          <div class="col-md-6 col-lg-4">
+            <div class="p-4 bg-white rounded-lg shadow-sm">
+              <div class="mb-3">
+                <i class="fas fa-funnel fa-3x accent-orange"></i>
+              </div>
+              <h5 class="fw-bold mb-2">Sales Funnel Design</h5>
+              <p class="text-muted small">Strategic funnels that guide prospects to conversion.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="p-4 bg-white rounded-lg shadow-sm">
+              <div class="mb-3">
+                <i class="fas fa-file-contract fa-3x accent-orange"></i>
+              </div>
+              <h5 class="fw-bold mb-2">Landing Pages</h5>
+              <p class="text-muted small">High-converting pages optimized for lead capture.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="p-4 bg-white rounded-lg shadow-sm">
+              <div class="mb-3">
+                <i class="fas fa-list-check fa-3x accent-orange"></i>
+              </div>
+              <h5 class="fw-bold mb-2">Lead Magnets</h5>
+              <p class="text-muted small">Valuable offers that attract quality leads.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="p-4 bg-white rounded-lg shadow-sm">
+              <div class="mb-3">
+                <i class="fas fa-envelope-open fa-3x accent-orange"></i>
+              </div>
+              <h5 class="fw-bold mb-2">Email Sequences</h5>
+              <p class="text-muted small">Automated nurture sequences that build trust.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="p-4 bg-white rounded-lg shadow-sm">
+              <div class="mb-3">
+                <i class="fas fa-message fa-3x accent-orange"></i>
+              </div>
+              <h5 class="fw-bold mb-2">WhatsApp Integration</h5>
+              <p class="text-muted small">Direct messaging that keeps leads engaged.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="p-4 bg-white rounded-lg shadow-sm">
+              <div class="mb-3">
+                <i class="fas fa-chart-bar fa-3x accent-orange"></i>
+              </div>
+              <h5 class="fw-bold mb-2">Lead Scoring</h5>
+              <p class="text-muted small">Identify and prioritize high-intent leads.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="py-5">
+    <!-- Our Process Section -->
+    <section class="py-5 bg-white">
       <div class="container">
-        <div class="card-glass p-4 text-center" data-animate>
-          <h2 class="section-title">Lead Generation That Works</h2>
-          <p class="text-muted">We build systems designed for consistent, high-quality leads rather than one-time traffic spikes.</p>
+        <h2 class="text-center mb-5 display-5 fw-bold">Our Process</h2>
+        <div class="row g-4 align-items-center">
+          <div class="col-md-2 text-center">
+            <div class="bg-accent-orange text-white p-4 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+              <img src="../assets/images/icon-search.svg" alt="Search" style="width: 40px; height: 40px;">
+            </div>
+            <h5 class="fw-bold mt-3">Funnel<br>Design</h5>
+            <p class="text-muted small">Plan your sales funnel and touchpoints.</p>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="bg-accent-orange text-white p-4 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+              <img src="../assets/images/icon-lightbulb.svg" alt="Lightbulb" style="width: 40px; height: 40px;">
+            </div>
+            <h5 class="fw-bold mt-3">Page<br>Building</h5>
+            <p class="text-muted small">Create optimized landing pages.</p>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="bg-accent-orange text-white p-4 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+              <img src="../assets/images/icon-wrench.svg" alt="Wrench" style="width: 40px; height: 40px;">
+            </div>
+            <h5 class="fw-bold mt-3">Campaign<br>Launch</h5>
+            <p class="text-muted small">Run targeted campaigns to drive traffic.</p>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="bg-accent-orange text-white p-4 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+              <img src="../assets/images/icon-rocket.svg" alt="Rocket" style="width: 40px; height: 40px;">
+            </div>
+            <h5 class="fw-bold mt-3">Nurture &<br>Follow-up</h5>
+            <p class="text-muted small">Engage leads with automated sequences.</p>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="bg-accent-orange text-white p-4 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+              <img src="../assets/images/icon-chart.svg" alt="Chart" style="width: 40px; height: 40px;">
+            </div>
+            <h5 class="fw-bold mt-3">Optimize &<br>Scale</h5>
+            <p class="text-muted small">Test, analyze, and scale winning funnels.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="py-5 bg-light text-center" data-animate>
-      <h2 class="section-title">Ready to fill your pipeline?</h2>
-      <p class="text-muted">Talk to MMKS about lead systems built for your market and business goals.</p>
-      <a href="../contact.html" class="btn btn-primary btn-lg">Generate Leads</a>
+    <!-- CTA Section -->
+    <section class="py-5 bg-dark text-white" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h2 class="display-5 fw-bold mb-3">Turn Traffic Into<br><span class="accent-orange">Quality Leads</span></h2>
+            <p class="lead text-light">Start generating qualified leads that fuel your sales growth today.</p>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <a href="../contact.html" class="btn btn-orange btn-lg">
+              <i class="fas fa-arrow-right me-2"></i>Build Your Funnel Now
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
-
-  <footer class="footer text-dark">
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-md-4"><h5>MMKS Digital Marketing Agency</h5><p class="text-muted">Lead generation systems for Tamil Nadu brands.</p></div>
-        <div class="col-md-4"><h6>Related Services</h6><ul class="list-unstyled"><li><a href="meta-ads.html">Meta Ads</a></li><li><a href="google-ads.html">Google Ads</a></li></ul></div>
-        <div class="col-md-4"><h6>Contact</h6><p class="text-muted mb-0"><i class="fa-solid fa-phone me-2"></i>+91 99999 99999</p></div>
+  \ \
+    <footer class="footer footer-dark py-5">
+    <div class="container mb-5">
+      <div class="row g-5 gy-4">
+        <div class="col-md-4">
+          <h5 class="mb-3">MMKS Digital Marketing Agency</h5>
+          <p class="text-muted">Premium digital marketing, branding and growth systems for Tamil Nadu businesses.</p>
+          <p class="text-muted mb-0"><strong>Kovilpatti, Tamil Nadu</strong></p>
+        </div>
+        <div class="col-md-4">
+          <h6 class="mb-3">Quick links</h6>
+          <ul class="list-unstyled">
+            <li><a href="about.html" class="text-decoration-none">About</a></li>
+            <li><a href="portfolio.html" class="text-decoration-none">Portfolio</a></li>
+            <li><a href="services/social-media-marketing.html" class="text-decoration-none">Services</a></li>
+            <li><a href="contact.html" class="text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="mb-3">Contact</h6>
+          <ul class="list-unstyled">
+            <li><a href="tel:+919999999999" class="text-decoration-none">+91 99999 99999</a></li>
+            <li><a href="mailto:hello@mmksagency.com" class="text-decoration-none">hello@mmksagency.com</a></li>
+            <li class="mt-2">Kovilpatti, Tamil Nadu</li>
+          </ul>
+        </div>
       </div>
-      <div class="text-center mt-4 text-muted">&copy; 2026 MMKS Digital Marketing Agency.</div>
+    </div>
+    <div class="border-top border-secondary pt-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="text-muted small mb-0">� 2026 MMKS Digital Marketing Agency. Designed for growth.</p>
+          </div>
+          <div class="col-md-6 text-end">
+            <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer" class="btn btn-sm btn-outline-light">
+              <i class="fa-brands fa-whatsapp me-2"></i>Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 
-  <a class="whatsapp-float" href="https://wa.me/919999999999" target="_blank" rel="noreferrer"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
-  <button class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
+  <a class="whatsapp-float" href="https://wa.me/919999999999" target="_blank" rel="noreferrer"><img src="../assets/images/icon-whatsapp.svg" alt="WhatsApp" style="width: 20px; height: 20px;"></a>
+  <button class="back-to-top" aria-label="Back to top"><img src="../assets/images/icon-chevron-up.svg" alt="Back to top" style="width: 20px; height: 20px;"></button>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/js/scripts.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
 
 

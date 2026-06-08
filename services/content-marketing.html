@@ -2,17 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover" />
   <title>Content Marketing | MMKS Agency</title>
   <meta name="description" content="Content that builds trust and drives sales with strategy, blogs, social content, marketing content and copywriting." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://mmksagency.example.com/services/content-marketing.html" />
+  <meta property="og:title" content="Content Marketing | MMKS Agency" />
+  <meta property="og:description" content="Content marketing and copywriting for Tamil Nadu brands that want to build trust and convert more visitors." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mmksagency.example.com/services/content-marketing.html" />
+  <meta property="og:image" content="https://mmksagency.example.com/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="https://mmksagency.example.com/favicon.ico" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.4/css/all.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="../assets/css/style.css" />
+  <style>
+    .accent-orange { color: #ea580c !important; }
+    .bg-accent-orange { background-color: #ea580c !important; }
+    .btn-orange { background-color: #ea580c !important; border-color: #ea580c !important; color: white !important; }
+    .btn-orange:hover { background-color: #d84805 !important; border-color: #d84805 !important; }
+  </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3">
     <div class="container">
-      <a class="navbar-brand" href="../index.html">MMKS Agency</a>
+      <a class="navbar-brand" href="../index.html"><img src="../src/LOGO.png" alt="MMKS Agency" style="height: 40px;"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav ms-auto align-items-lg-center">
@@ -24,91 +39,263 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="../index.html#services" role="button" data-bs-toggle="dropdown">Services</a>
             <ul class="dropdown-menu dropdown-menu-end bg-light border-0 shadow-lg">
-              <li><a class="dropdown-item text-dark" href="social-media-marketing.html">Social Media Marketing</a></li>
-              <li><a class="dropdown-item text-dark" href="seo-services.html">SEO Services</a></li>
-              <li><a class="dropdown-item text-dark" href="meta-ads.html">Meta Ads</a></li>
-              <li><a class="dropdown-item text-dark" href="google-ads.html">Google Ads</a></li>
-              <li><a class="dropdown-item text-dark" href="web-development.html">Web Development</a></li>
-              <li><a class="dropdown-item text-dark" href="branding.html">Branding</a></li>
-              <li><a class="dropdown-item text-dark" href="poster-design.html">Poster Design</a></li>
-              <li><a class="dropdown-item text-dark" href="content-marketing.html">Content Marketing</a></li>
-              <li><a class="dropdown-item text-dark" href="lead-generation.html">Lead Generation</a></li>
-              <li><a class="dropdown-item text-dark" href="ai-solutions.html">AI Solutions</a></li>
+              <li><a class="dropdown-item" href="social-media-marketing.html">Social Media Marketing</a></li>
+              <li><a class="dropdown-item" href="seo-services.html">SEO Services</a></li>
+              <li><a class="dropdown-item" href="meta-ads.html">Meta Ads</a></li>
+              <li><a class="dropdown-item" href="google-ads.html">Google Ads</a></li>
+              <li><a class="dropdown-item" href="web-development.html">Web Development</a></li>
+              <li><a class="dropdown-item" href="branding.html">Branding</a></li>
+              <li><a class="dropdown-item" href="poster-design.html">Poster Design</a></li>
+              <li><a class="dropdown-item" href="content-marketing.html">Content Marketing</a></li>
+              <li><a class="dropdown-item" href="lead-generation.html">Lead Generation</a></li>
+              <li><a class="dropdown-item" href="ai-solutions.html">AI Solutions</a></li>
             </ul>
+          </li>
+          <li class="nav-item ms-2">
+            <a href="../contact.html" class="btn btn-primary btn-sm">Get a Free Quote</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-  <main class="py-5">
-    <section class="hero-section text-dark">
+  <main>
+    <!-- Hero Section -->
+    <section class="py-5 mt-5" style="background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);">
       <div class="container">
         <div class="row align-items-center gy-5">
-          <div class="col-lg-7" data-animate>
-            <span class="banner-tag">Service</span>
-            <h1 class="hero-title mt-4">Content That Builds Trust And Drives Sales</h1>
-            <p class="hero-copy mt-4">MMKS creates content strategy, blogs, posts, marketing copy and engagement systems to help brands win attention and action.</p>
-            <div class="d-flex gap-3 flex-wrap mt-4">
-              <a href="../contact.html" class="btn btn-primary btn-lg">Plan My Content</a>
-              <a href="#services" class="btn btn-outline-light btn-lg">View Services</a>
-            </div>
+          <div class="col-lg-6">
+            <span class="badge bg-accent-orange text-white mb-3">OUR SERVICE</span>
+            <h1 class="display-3 fw-bold mb-3">Content<br><span class="accent-orange">Marketing</span></h1>
+            <p class="lead text-muted mb-4">Engage. Inform. Convert. Your Story Told Well.</p>
+            <p class="text-muted mb-4">We create compelling content that educates your audience, builds trust, and drives conversions. From blog posts to compelling copy, we tell your brand story authentically.</p>
+            <a href="../contact.html" class="btn btn-orange btn-lg">
+              <i class="fas fa-arrow-right me-2"></i>Start Creating Content
+            </a>
           </div>
-          <div class="col-lg-5" data-animate>
-            <div class="card-glass p-4">
-              <h5>Content Strategy</h5>
-              <p class="text-muted">Editorial plans and story frameworks that support your brand goals.</p>
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <img src="../src/contant-marketing.png" alt="Content Marketing" class="img-fluid rounded-lg shadow-lg" style="border-radius: 20px;">
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="services" class="py-5 bg-light">
+    <!-- Stats Section -->
+    <section class="py-5 bg-white">
       <div class="container">
+        <div class="row g-4 text-center">
+          <div class="col-md-3">
+            <div class="p-4">
+              <h3 class="display-4 fw-bold accent-orange mb-2">1000+</h3>
+              <p class="text-muted">Articles Written</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-4">
+              <h3 class="display-4 fw-bold accent-orange mb-2">15M+</h3>
+              <p class="text-muted">Organic Impressions</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-4">
+              <h3 class="display-4 fw-bold accent-orange mb-2">280%</h3>
+              <p class="text-muted">Traffic Growth Average</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-4">
+              <h3 class="display-4 fw-bold accent-orange mb-2">52%</h3>
+              <p class="text-muted">Engagement Rate Lift</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5 display-5 fw-bold">What We Do</h2>
         <div class="row g-4">
-          <div class="col-md-6" data-animate><div class="card-glass p-4 h-100"><h2 class="section-title">Content Strategy</h2><p class="text-muted">A roadmap for blog, social and campaign content that aligns with your audience.</p></div></div>
-          <div class="col-md-6" data-animate><div class="card-glass p-4 h-100"><h2 class="section-title">Blog Writing</h2><p class="text-muted">SEO friendly blog posts that educate customers and boost search visibility.</p></div></div>
-          <div class="col-md-6" data-animate><div class="card-glass p-4 h-100"><h2 class="section-title">Social Content</h2><p class="text-muted">Captions, visuals and post ideas tailored to Instagram, Facebook and WhatsApp audiences.</p></div></div>
-          <div class="col-md-6" data-animate><div class="card-glass p-4 h-100"><h2 class="section-title">Marketing Content</h2><p class="text-muted">Campaign messaging, promotions and brand stories that motivate customers.</p></div></div>
-          <div class="col-md-6" data-animate><div class="card-glass p-4 h-100"><h2 class="section-title">Copywriting</h2><p class="text-muted">High-converting copy for ads, landing pages and business messages.</p></div></div>
-          <div class="col-md-6" data-animate><div class="card-glass p-4 h-100"><h2 class="section-title">Engagement Strategy</h2><p class="text-muted">Content systems that encourage comments, shares and repeat visits.</p></div></div>
+          <div class="col-md-6 col-lg-4">
+            <div class="p-4 bg-white rounded-lg shadow-sm">
+              <div class="mb-3">
+                <i class="fas fa-blog fa-3x accent-orange"></i>
+              </div>
+              <h5 class="fw-bold mb-2">Blog Writing</h5>
+              <p class="text-muted small">SEO-optimized articles that rank and engage readers.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="p-4 bg-white rounded-lg shadow-sm">
+              <div class="mb-3">
+                <i class="fas fa-pen-nib fa-3x accent-orange"></i>
+              </div>
+              <h5 class="fw-bold mb-2">Copywriting</h5>
+              <p class="text-muted small">Compelling copy that persuades and converts readers.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="p-4 bg-white rounded-lg shadow-sm">
+              <div class="mb-3">
+                <i class="fas fa-video fa-3x accent-orange"></i>
+              </div>
+              <h5 class="fw-bold mb-2">Video Scripts</h5>
+              <p class="text-muted small">Engaging scripts for YouTube, TikTok, and social media.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="p-4 bg-white rounded-lg shadow-sm">
+              <div class="mb-3">
+                <i class="fas fa-envelope fa-3x accent-orange"></i>
+              </div>
+              <h5 class="fw-bold mb-2">Email Campaigns</h5>
+              <p class="text-muted small">Personalized email content that drives action.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="p-4 bg-white rounded-lg shadow-sm">
+              <div class="mb-3">
+                <i class="fas fa-lightbulb fa-3x accent-orange"></i>
+              </div>
+              <h5 class="fw-bold mb-2">Content Strategy</h5>
+              <p class="text-muted small">Strategic planning for consistent, effective content.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="p-4 bg-white rounded-lg shadow-sm">
+              <div class="mb-3">
+                <i class="fas fa-chart-line fa-3x accent-orange"></i>
+              </div>
+              <h5 class="fw-bold mb-2">Performance Analysis</h5>
+              <p class="text-muted small">Content metrics and optimization recommendations.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="py-5">
+    <!-- Our Process Section -->
+    <section class="py-5 bg-white">
       <div class="container">
-        <div class="card-glass p-4 text-center" data-animate>
-          <h2 class="section-title">Build Trust With Every Message</h2>
-          <p class="text-muted">Quality content helps your audience understand your value and take action with confidence.</p>
+        <h2 class="text-center mb-5 display-5 fw-bold">Our Process</h2>
+        <div class="row g-4 align-items-center">
+          <div class="col-md-2 text-center">
+            <div class="bg-accent-orange text-white p-4 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+              <img src="../assets/images/icon-search.svg" alt="Search" style="width: 40px; height: 40px;">
+            </div>
+            <h5 class="fw-bold mt-3">Strategy &<br>Planning</h5>
+            <p class="text-muted small">Define goals and content pillars.</p>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="bg-accent-orange text-white p-4 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+              <img src="../assets/images/icon-lightbulb.svg" alt="Lightbulb" style="width: 40px; height: 40px;">
+            </div>
+            <h5 class="fw-bold mt-3">Research &<br>Ideation</h5>
+            <p class="text-muted small">Topic research and content ideas.</p>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="bg-accent-orange text-white p-4 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+              <img src="../assets/images/icon-wrench.svg" alt="Wrench" style="width: 40px; height: 40px;">
+            </div>
+            <h5 class="fw-bold mt-3">Content<br>Creation</h5>
+            <p class="text-muted small">Write and develop quality content.</p>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="bg-accent-orange text-white p-4 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+              <img src="../assets/images/icon-rocket.svg" alt="Rocket" style="width: 40px; height: 40px;">
+            </div>
+            <h5 class="fw-bold mt-3">Editing &<br>Optimization</h5>
+            <p class="text-muted small">Polish and optimize for SEO.</p>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="bg-accent-orange text-white p-4 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+              <img src="../assets/images/icon-chart.svg" alt="Chart" style="width: 40px; height: 40px;">
+            </div>
+            <h5 class="fw-bold mt-3">Publishing &<br>Promotion</h5>
+            <p class="text-muted small">Publish and promote across channels.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="py-5 bg-light text-center" data-animate>
-      <h2 class="section-title">Ready to create content that converts?</h2>
-      <p class="text-muted">Contact MMKS for a content marketing plan that supports sales, branding and customer trust.</p>
-      <a href="../contact.html" class="btn btn-primary btn-lg">Start Content Plan</a>
+    <!-- CTA Section -->
+    <section class="py-5 bg-dark text-white" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h2 class="display-5 fw-bold mb-3">Content That<br><span class="accent-orange">Converts & Engages</span></h2>
+            <p class="lead text-light">Strategic content that positions your brand as an industry leader.</p>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <a href="../contact.html" class="btn btn-orange btn-lg">
+              <i class="fas fa-arrow-right me-2"></i>Get Your Content Plan
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
-
-  <footer class="footer text-dark">
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-md-4"><h5>MMKS Digital Marketing Agency</h5><p class="text-muted">Content marketing services for Tamil Nadu brands.</p></div>
-        <div class="col-md-4"><h6>Related</h6><ul class="list-unstyled"><li><a href="social-media-marketing.html">Social Media Marketing</a></li><li><a href="branding.html">Branding</a></li></ul></div>
-        <div class="col-md-4"><h6>Contact</h6><p class="text-muted mb-0"><i class="fa-solid fa-phone me-2"></i>+91 99999 99999</p></div>
+  \ \
+    <footer class="footer footer-dark py-5">
+    <div class="container mb-5">
+      <div class="row g-5 gy-4">
+        <div class="col-md-4">
+          <h5 class="mb-3">MMKS Digital Marketing Agency</h5>
+          <p class="text-muted">Premium digital marketing, branding and growth systems for Tamil Nadu businesses.</p>
+          <p class="text-muted mb-0"><strong>Kovilpatti, Tamil Nadu</strong></p>
+        </div>
+        <div class="col-md-4">
+          <h6 class="mb-3">Quick links</h6>
+          <ul class="list-unstyled">
+            <li><a href="about.html" class="text-decoration-none">About</a></li>
+            <li><a href="portfolio.html" class="text-decoration-none">Portfolio</a></li>
+            <li><a href="services/social-media-marketing.html" class="text-decoration-none">Services</a></li>
+            <li><a href="contact.html" class="text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="mb-3">Contact</h6>
+          <ul class="list-unstyled">
+            <li><a href="tel:+919999999999" class="text-decoration-none">+91 99999 99999</a></li>
+            <li><a href="mailto:hello@mmksagency.com" class="text-decoration-none">hello@mmksagency.com</a></li>
+            <li class="mt-2">Kovilpatti, Tamil Nadu</li>
+          </ul>
+        </div>
       </div>
-      <div class="text-center mt-4 text-muted">&copy; 2026 MMKS Digital Marketing Agency.</div>
+    </div>
+    <div class="border-top border-secondary pt-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="text-muted small mb-0">� 2026 MMKS Digital Marketing Agency. Designed for growth.</p>
+          </div>
+          <div class="col-md-6 text-end">
+            <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer" class="btn btn-sm btn-outline-light">
+              <i class="fa-brands fa-whatsapp me-2"></i>Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 
-  <a class="whatsapp-float" href="https://wa.me/919999999999" target="_blank" rel="noreferrer"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
-  <button class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
+  <a class="whatsapp-float" href="https://wa.me/919999999999" target="_blank" rel="noreferrer"><img src="../assets/images/icon-whatsapp.svg" alt="WhatsApp" style="width: 20px; height: 20px;"></a>
+  <button class="back-to-top" aria-label="Back to top"><img src="../assets/images/icon-chevron-up.svg" alt="Back to top" style="width: 20px; height: 20px;"></button>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/js/scripts.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
 
 
