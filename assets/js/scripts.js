@@ -4,6 +4,28 @@ document.addEventListener('DOMContentLoaded', function () {
   const mobileToggle = document.querySelector('.navbar-toggler');
   const loading = document.querySelector('.loading-screen');
 
+  // Set active navbar link based on current page
+  const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+  const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+  
+  navLinks.forEach(link => {
+    const href = link.getAttribute('href');
+    // Remove active class from all links
+    link.classList.remove('active');
+    
+    // Check if this link matches current page
+    if ((currentPage === '' || currentPage === 'index.html') && (href === 'index.html' || href === './index.html')) {
+      link.classList.add('active');
+    } else if (currentPage === href || currentPage === './' + href) {
+      link.classList.add('active');
+    } else if (href.includes(currentPage) && currentPage.includes('services/')) {
+      // For service pages, highlight Services dropdown
+      if (link.classList.contains('dropdown-toggle')) {
+        link.classList.add('active');
+      }
+    }
+  });
+
   window.addEventListener('scroll', function () {
     if (window.scrollY > 20) {
       navbar.classList.add('scrolled');
