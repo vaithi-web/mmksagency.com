@@ -1081,7 +1081,7 @@ section {
   }
 
   .hero-title {
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-size: clamp(2rem, 5vw, 3rem);
     line-height: 1.1;
     margin-bottom: 1.5rem !important;
   }
@@ -1096,17 +1096,18 @@ section {
     line-height: 1.6;
   }
 
-  /* Ensure minimum readable text size to prevent mobile auto-zoom (iOS) */
+  /* Mobile text sizing for readability */
   html, body {
-    -webkit-text-size-adjust: 80%;
+    -webkit-text-size-adjust: 100%;
   }
 
   body {
-    font-size: 10px !important;
+    font-size: 20px !important;
+    line-height: 1.5 !important;
   }
 
   input, textarea, select, button, .btn, .btn-lg, .btn-sm, .nav-link, .lead {
-    font-size: 14px !important;
+    font-size: 26px !important;
   }
 
   /* Button sizing for mobile */
@@ -1222,5 +1223,16 @@ section {
   p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word !important;
     word-break: break-word !important;
+  }
+
+  /* Center icons inside Our Values on small screens */
+  .our-values .text-center svg,
+  .our-values .text-center img {
+    display: block !important;
+    margin: 0 auto !important;
+  }
+
+  .our-values .text-center {
+    text-align: center !important;
   }
 }
