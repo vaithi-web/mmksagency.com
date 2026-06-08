@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover" />
   <title>About MMKS Agency | Founders, Vision & Values</title>
   <meta name="description" content="Learn about MMKS Digital Marketing Agency, founders Sankaranarayanan and Kabilal, company values, mission, and growth journey from Kovilpatti." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://mmksagency.example.com/about.html" />
+  <meta property="og:title" content="About MMKS Agency" />
+  <meta property="og:description" content="Meet the MMKS Agency founders and learn how we help Tamil Nadu businesses grow with digital marketing, design, and web technology." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mmksagency.example.com/about.html" />
+  <meta property="og:image" content="https://mmksagency.example.com/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="https://mmksagency.example.com/favicon.ico" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.4/css/all.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -12,170 +21,284 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3">
     <div class="container">
-      <a class="navbar-brand" href="index.html">MMKS Agency</a>
+      <a class="navbar-brand" href="index.html"><img src="src/LOGO.png" alt="MMKS Agency" style="height: 40px;"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav ms-auto align-items-lg-center">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="index.html#services" role="button" data-bs-toggle="dropdown">Services</a>
-            <ul class="dropdown-menu dropdown-menu-end bg-light border-0 shadow-lg">
-              <li><a class="dropdown-item text-dark" href="services/social-media-marketing.html">Social Media Marketing</a></li>
-              <li><a class="dropdown-item text-dark" href="services/seo-services.html">SEO Services</a></li>
-              <li><a class="dropdown-item text-dark" href="services/meta-ads.html">Meta Ads</a></li>
-              <li><a class="dropdown-item text-dark" href="services/google-ads.html">Google Ads</a></li>
-              <li><a class="dropdown-item text-dark" href="services/web-development.html">Web Development</a></li>
-              <li><a class="dropdown-item text-dark" href="services/branding.html">Branding</a></li>
-              <li><a class="dropdown-item text-dark" href="services/poster-design.html">Poster Design</a></li>
-              <li><a class="dropdown-item text-dark" href="services/content-marketing.html">Content Marketing</a></li>
-              <li><a class="dropdown-item text-dark" href="services/lead-generation.html">Lead Generation</a></li>
-              <li><a class="dropdown-item text-dark" href="services/ai-solutions.html">AI Solutions</a></li>
-            </ul>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
           <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li>
           <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown">Services</a>
+            <ul class="dropdown-menu dropdown-menu-end bg-light border-0 shadow-lg">
+              <li><a class="dropdown-item" href="services/social-media-marketing.html">Social Media Marketing</a></li>
+              <li><a class="dropdown-item" href="services/seo-services.html">SEO Services</a></li>
+              <li><a class="dropdown-item" href="services/meta-ads.html">Meta Ads</a></li>
+              <li><a class="dropdown-item" href="services/google-ads.html">Google Ads</a></li>
+              <li><a class="dropdown-item" href="services/web-development.html">Web Development</a></li>
+              <li><a class="dropdown-item" href="services/branding.html">Branding</a></li>
+              <li><a class="dropdown-item" href="services/poster-design.html">Poster Design</a></li>
+              <li><a class="dropdown-item" href="services/content-marketing.html">Content Marketing</a></li>
+              <li><a class="dropdown-item" href="services/lead-generation.html">Lead Generation</a></li>
+              <li><a class="dropdown-item" href="services/ai-solutions.html">AI Solutions</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ms-2">
+            <a href="contact.html" class="btn btn-primary btn-sm">Get a Free Quote</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
-
-  <main class="py-5">
-    <section class="hero-section text-dark">
+  <main>
+    <!-- Hero Section -->
+    <section class="py-5 mt-5" style="background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);">
       <div class="container">
         <div class="row align-items-center gy-5">
-          <div class="col-lg-7" data-animate>
-            <span class="banner-tag">About MMKS</span>
-            <h1 class="hero-title mt-4">Founder Story, Mission, and Vision from Kovilpatti</h1>
-            <p class="hero-copy mt-4">MMKS Digital Marketing Agency was created to bring premium digital services to Tamil Nadu's startups, local shops, and creative entrepreneurs.</p>
+          <div class="col-lg-6">
+            <span class="badge bg-warning text-dark mb-3">ABOUT US</span>
+            <h1 class="display-3 fw-bold mb-3">We Are <span class="text-warning">MMKS</span><br>Digital Agency</h1>
+            <p class="lead text-muted mb-4">Smart Digital Solutions to Grow Your Business</p>
+            <p class="text-muted mb-4">We are a digital marketing agency based in Tamil Nadu, helping businesses of all sizes grow online. From strategy to execution, we deliver result-driven solutions that build brand value and drive real growth.</p>
+            <a href="contact.html" class="btn btn-warning btn-lg">
+              <i class="fas fa-arrow-right me-2"></i>Let's Work Together
+            </a>
           </div>
-          <div class="col-lg-5" data-animate>
-            <div class="card-glass p-4">
-              <h5>Our Journey</h5>
-              <p class="text-muted">Started in Kovilpatti with a focus on modern branding and measurable marketing, MMKS now serves businesses across Tamil Nadu with campaigns and websites that perform.</p>
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <img src="src/about_page.avif" alt="Team working together" class="img-fluid rounded-lg shadow-lg" style="border-radius: 20px;">
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Stats Section -->
+    <section class="py-5 bg-white">
+      <div class="container">
+        <div class="row g-4 text-center">
+          <div class="col-md-3">
+            <div class="p-4">
+              <h3 class="display-4 fw-bold text-warning mb-2">100+</h3>
+              <p class="text-muted">Happy Clients</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-4">
+              <h3 class="display-4 fw-bold text-warning mb-2">250+</h3>
+              <p class="text-muted">Projects Completed</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-4">
+              <h3 class="display-4 fw-bold text-warning mb-2">5+</h3>
+              <p class="text-muted">Years of Experience</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-4">
+              <h3 class="display-4 fw-bold text-warning mb-2">10+</h3>
+              <p class="text-muted">Expert Team Members</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story Section -->
     <section class="py-5 bg-light">
       <div class="container">
-        <div class="row g-4 align-items-center">
-          <div class="col-lg-6" data-animate>
-            <h2 class="section-title">Vision & Mission</h2>
-            <p class="text-muted">We envision a Tamil Nadu where local brands can compete with premium digital experiences. Our mission is to help businesses build trust, grow leads, and convert customers using technology-driven creative campaigns.</p>
-            <ul class="list-group list-group-flush text-muted">
-              <li class="list-group-item bg-transparent border-0 p-0 mb-2"><strong>Vision:</strong> Empower local brands with premium digital identity and growth systems.</li>
-              <li class="list-group-item bg-transparent border-0 p-0 mb-2"><strong>Mission:</strong> Deliver measurable marketing results for startups, shops and freelancers.</li>
-              <li class="list-group-item bg-transparent border-0 p-0"><strong>Values:</strong> Clarity, creativity, growth, and local impact.</li>
-            </ul>
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop" alt="Our story" class="img-fluid rounded-lg shadow-lg" style="border-radius: 20px;">
           </div>
-          <div class="col-lg-6" data-animate>
-            <div class="card-glass p-4">
-              <h2 class="section-title">Team & Core Values</h2>
-              <div class="row g-3 mt-3">
-                <div class="col-12">
-                  <div class="d-flex gap-3 align-items-start"><span class="feature-icon"><i class="fa-solid fa-heart"></i></span><div><strong>Client-first thinking</strong><p class="mb-0 text-muted">We design services around business goals, not vanity metrics.</p></div></div>
-                </div>
-                <div class="col-12">
-                  <div class="d-flex gap-3 align-items-start"><span class="feature-icon"><i class="fa-solid fa-lightbulb"></i></span><div><strong>Innovative solutions</strong><p class="mb-0 text-muted">We use smart automation, AI and tailored campaigns to reduce manual effort.</p></div></div>
-                </div>
-                <div class="col-12">
-                  <div class="d-flex gap-3 align-items-start"><span class="feature-icon"><i class="fa-solid fa-handshake"></i></span><div><strong>Trust and transparency</strong><p class="mb-0 text-muted">We report results clearly and work as partners with our clients.</p></div></div>
-                </div>
+          <div class="col-lg-6">
+            <span class="badge bg-warning text-dark mb-3">OUR STORY</span>
+            <h2 class="display-5 fw-bold mb-3">Building Brands.<br>Driving Growth.</h2>
+            <p class="text-muted mb-3">MMKS Digital Agency was founded with a simple mission – to help businesses grow online with smart strategies, creative ideas, and measurable results.</p>
+            <p class="text-muted mb-3">We believe every brand has a story, and our job is to tell it to the right audience in the right way.</p>
+            <p class="text-muted">Our team combines expertise in digital marketing, web development, design, and strategy to deliver solutions that work for your business.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Values Section -->
+    <section class="py-5 bg-white">
+      <div class="container">
+        <h2 class="text-center mb-5 display-5 fw-bold">Our Values</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="text-center p-4">
+              <div class="mb-3">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="30" cy="30" r="28" stroke="#ea580c" stroke-width="2"/>
+                  <circle cx="30" cy="30" r="20" stroke="#ea580c" stroke-width="2"/>
+                  <circle cx="30" cy="30" r="6" fill="#ea580c"/>
+                  <line x1="30" y1="10" x2="30" y2="2" stroke="#ea580c" stroke-width="2"/>
+                  <line x1="50" y1="30" x2="58" y2="30" stroke="#ea580c" stroke-width="2"/>
+                  <line x1="30" y1="50" x2="30" y2="58" stroke="#ea580c" stroke-width="2"/>
+                  <line x1="10" y1="30" x2="2" y2="30" stroke="#ea580c" stroke-width="2"/>
+                </svg>
               </div>
+              <h5 class="mb-2 fw-bold">Results First</h5>
+              <p class="text-muted small">We focus on strategies that deliver real, measurable results.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="text-center p-4">
+              <div class="mb-3">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M30 8C22 8 16 14 16 22C16 30 30 48 30 48C30 48 44 30 44 22C44 14 38 8 30 8Z" stroke="#ea580c" stroke-width="2" fill="none"/>
+                  <circle cx="30" cy="22" r="4" fill="#ea580c"/>
+                  <path d="M24 50H36V52C36 54.2091 34.2091 56 32 56H28C25.7909 56 24 54.2091 24 52V50Z" stroke="#ea580c" stroke-width="2" fill="none"/>
+                </svg>
+              </div>
+              <h5 class="mb-2 fw-bold">Innovation</h5>
+              <p class="text-muted small">We use the latest tools to stay ahead.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="text-center p-4">
+              <div class="mb-3">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 30C10 20 15 12 22 12C28 12 32 18 32 24" stroke="#ea580c" stroke-width="2" fill="none"/>
+                  <path d="M50 30C50 20 45 12 38 12C32 12 28 18 28 24" stroke="#ea580c" stroke-width="2" fill="none"/>
+                  <path d="M18 38C18 32 22 28 28 28C34 28 38 32 38 38C38 44 34 50 28 50C22 50 18 44 18 38Z" stroke="#ea580c" stroke-width="2" fill="none"/>
+                  <circle cx="28" cy="38" r="3" fill="#ea580c"/>
+                </svg>
+              </div>
+              <h5 class="mb-2 fw-bold">Client Success</h5>
+              <p class="text-muted small">Our success is measured by the growth of our clients.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="text-center p-4">
+              <div class="mb-3">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="18" cy="20" r="6" stroke="#ea580c" stroke-width="2" fill="none"/>
+                  <path d="M8 30C8 26 12 24 18 24C24 24 28 26 28 30" stroke="#ea580c" stroke-width="2" fill="none"/>
+                  <circle cx="42" cy="20" r="6" stroke="#ea580c" stroke-width="2" fill="none"/>
+                  <path d="M32 30C32 26 36 24 42 24C48 24 52 26 52 30" stroke="#ea580c" stroke-width="2" fill="none"/>
+                  <path d="M12 36H48C50.2091 36 52 37.7909 52 40V50C52 52.2091 50.2091 54 48 54H12C9.79086 54 8 52.2091 8 50V40C8 37.7909 9.79086 36 12 36Z" stroke="#ea580c" stroke-width="2" fill="none"/>
+                  <path d="M20 42H40" stroke="#ea580c" stroke-width="2"/>
+                  <path d="M20 48H40" stroke="#ea580c" stroke-width="2"/>
+                </svg>
+              </div>
+              <h5 class="mb-2 fw-bold">Transparency</h5>
+              <p class="text-muted small">We believe in clear communication and honest reporting.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="py-5">
+   
+    <!-- Founders Section -->
+    <section class="py-5 bg-white">
       <div class="container">
-        <div class="text-center mb-5" data-animate>
-          <p class="section-subtitle">Founder Story</p>
-          <h2 class="section-title">How Sankaranarayanan and Kabilal Launched MMKS</h2>
-        </div>
-        <div class="row g-4">
-          <div class="col-lg-6" data-animate>
-            <div class="card-glass p-4 h-100">
-              <h4>Sankaranarayanan</h4>
-              <p class="text-muted">From strategy to branding, he leads campaigns that connect with Tamil Nadu audiences and deliver measurable business growth.</p>
-            </div>
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6">
+            <img src="src/founders.png" alt="Founders - Sankaranarayanan M & Kabil Lal" class="img-fluid rounded-lg shadow-lg" style="border-radius: 20px; width: 100%; height: 750px; object-fit: cover;">
           </div>
-          <div class="col-lg-6" data-animate>
-            <div class="card-glass p-4 h-100">
-              <h4>Kabilal</h4>
-              <p class="text-muted">He creates automation, website systems and lead funnels that turn traffic into customers for local brands.</p>
+          <div class="col-lg-6">
+            <span class="badge bg-warning text-dark mb-3">OUR FOUNDERS</span>
+            <h2 class="display-5 fw-bold mb-4">We are Founders in<br>MMKS Digital Marketing Agency</h2>
+            <p class="text-muted mb-4">Sankaranarayanan M & Kabil Lal founded MMKS Digital Agency with a vision to transform how Tamil Nadu businesses grow online. With years of expertise in digital marketing, strategy, and creative execution, they built a team dedicated to delivering real results.</p>
+            
+            <div class="mb-4">
+              <h3 class="fw-bold mb-3">Sankaranarayanan M</h3>
+              <p class="text-muted mb-3">Strategy, brand growth and campaign direction for high-value results. Leading MMKS with vision for Tamil Nadu digital transformation.</p>
+              <p class="text-muted small"><strong>Role:</strong> Founder & CEO</p>
+            </div>
+
+            <div>
+              <h3 class="fw-bold mb-3">Kabil Lal</h3>
+              <p class="text-muted mb-3">Creative systems, automation and lead generation frameworks for local brands. Driving innovation in digital marketing tools.</p>
+              <p class="text-muted small"><strong>Role:</strong> Co-Founder & Executive Director</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="py-5 bg-light">
+    <!-- CTA Section -->
+    <section class="py-5 bg-dark text-white" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);">
       <div class="container">
-        <div class="text-center mb-5" data-animate>
-          <h2 class="section-title">Timeline</h2>
-          <p class="text-muted">Our growth from a local startup to a premium digital agency for Tamil Nadu.</p>
-        </div>
-        <div class="row g-4">
-          <div class="col-md-4" data-animate>
-            <div class="card-glass p-4 h-100">
-              <h5>2024</h5>
-              <p class="text-muted">MMKS launches in Kovilpatti with website and social media services.</p>
-            </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h2 class="display-5 fw-bold mb-3">Ready to Grow Your Business?</h2>
+            <p class="lead text-light">Let's build something great together.</p>
           </div>
-          <div class="col-md-4" data-animate>
-            <div class="card-glass p-4 h-100">
-              <h5>2025</h5>
-              <p class="text-muted">Expanded into SEO, ads, branding and AI marketing systems for local brands.</p>
-            </div>
-          </div>
-          <div class="col-md-4" data-animate>
-            <div class="card-glass p-4 h-100">
-              <h5>2026</h5>
-              <p class="text-muted">Serving startups, shops, freelancers and student entrepreneurs across Tamil Nadu.</p>
-            </div>
+          <div class="col-lg-6 text-lg-end">
+            <a href="contact.html" class="btn btn-warning btn-lg">
+              <i class="fas fa-arrow-right me-2"></i>Get a Free Quote
+            </a>
           </div>
         </div>
       </div>
     </section>
   </main>
-
-  <footer class="footer text-dark">
-    <div class="container">
-      <div class="row gy-4">
+  \ \
+    <footer class="footer footer-dark py-5">
+    <div class="container mb-5">
+      <div class="row g-5 gy-4">
         <div class="col-md-4">
-          <h5>MMKS Digital Marketing Agency</h5>
-          <p class="text-muted">Premium agency services from Kovilpatti to all of Tamil Nadu.</p>
+          <h5 class="mb-3">MMKS Digital Marketing Agency</h5>
+          <p class="text-muted">Premium digital marketing, branding and growth systems for Tamil Nadu businesses.</p>
+          <p class="text-muted mb-0"><strong>Kovilpatti, Tamil Nadu</strong></p>
         </div>
         <div class="col-md-4">
-          <h6>Quick links</h6>
+          <h6 class="mb-3">Quick links</h6>
           <ul class="list-unstyled">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services/social-media-marketing.html">Social Media</a></li>
-            <li><a href="services/seo-services.html">SEO</a></li>
+            <li><a href="about.html" class="text-decoration-none">About</a></li>
+            <li><a href="portfolio.html" class="text-decoration-none">Portfolio</a></li>
+            <li><a href="services/social-media-marketing.html" class="text-decoration-none">Services</a></li>
+            <li><a href="contact.html" class="text-decoration-none">Contact</a></li>
           </ul>
         </div>
         <div class="col-md-4">
-          <h6>Contact</h6>
-          <p class="text-muted mb-1"><i class="fa-solid fa-phone me-2"></i>+91 99999 99999</p>
-          <p class="text-muted"><i class="fa-solid fa-map-marker-alt me-2"></i>Kovilpatti, Tamil Nadu</p>
+          <h6 class="mb-3">Contact</h6>
+          <ul class="list-unstyled">
+            <li><a href="tel:+919999999999" class="text-decoration-none">+91 99999 99999</a></li>
+            <li><a href="mailto:hello@mmksagency.com" class="text-decoration-none">hello@mmksagency.com</a></li>
+            <li class="mt-2">Kovilpatti, Tamil Nadu</li>
+          </ul>
         </div>
       </div>
-      <div class="text-center mt-4 text-muted">&copy; 2026 MMKS Digital Marketing Agency.</div>
+    </div>
+    <div class="border-top border-secondary pt-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="text-muted small mb-0">� 2026 MMKS Digital Marketing Agency. Designed for growth.</p>
+          </div>
+          <div class="col-md-6 text-end">
+            <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer" class="btn btn-sm btn-outline-light">
+              <i class="fa-brands fa-whatsapp me-2"></i>Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 
-  <a class="whatsapp-float" href="https://wa.me/919999999999" target="_blank" rel="noreferrer"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
-  <button class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
+  <a class="whatsapp-float" href="https://wa.me/919999999999" target="_blank" rel="noreferrer"><img src="assets/images/icon-whatsapp.svg" alt="WhatsApp" style="width: 20px; height: 20px;"></a>
+  <button class="back-to-top" aria-label="Back to top"><img src="assets/images/icon-chevron-up.svg" alt="Back to top" style="width: 20px; height: 20px;"></button>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/scripts.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
 
 
