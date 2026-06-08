@@ -1102,12 +1102,12 @@ section {
   }
 
   body {
-    font-size: 16px !important;
+    font-size: 10px !important;
     line-height: 1.5 !important;
   }
 
   input, textarea, select, button, .btn, .btn-lg, .btn-sm, .nav-link, .lead {
-    font-size: 16px !important;
+    font-size: 10px !important;
   }
 
   /* Button sizing for mobile */
