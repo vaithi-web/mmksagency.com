@@ -1,0 +1,12 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+  <!-- Three people representing expert team -->
+  <circle cx="50" cy="25" r="12" fill="currentColor"/>
+  <path d="M40 40 Q40 35 50 35 Q60 35 60 40 L60 55 Q60 58 57 58 L43 58 Q40 58 40 55 Z" fill="currentColor"/>
+  <circle cx="30" cy="30" r="10" fill="currentColor"/>
+  <path d="M22 42 Q22 38 30 38 Q38 38 38 42 L38 55 Q38 57 36 57 L24 57 Q22 57 22 55 Z" fill="currentColor"/>
+  <circle cx="70" cy="30" r="10" fill="currentColor"/>
+  <path d="M62 42 Q62 38 70 38 Q78 38 78 42 L78 55 Q78 57 76 57 L64 57 Q62 57 62 55 Z" fill="currentColor"/>
+  <!-- Connection lines -->
+  <line x1="40" y1="48" x2="50" y2="38" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="60" y1="48" x2="50" y2="38" stroke="currentColor" stroke-width="1.5"/>
+</svg>

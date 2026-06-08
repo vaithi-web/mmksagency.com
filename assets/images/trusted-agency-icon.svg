@@ -1,0 +1,5 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+  <!-- Shield with checkmark for Trusted Agency -->
+  <path d="M50 15 L30 30 L30 50 Q30 70 50 85 Q70 70 70 50 L70 30 Z" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <path d="M42 52 L48 60 L62 42" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Chart bars -->
+  <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+    <rect x="20" y="55" width="12" height="30" rx="2"/>
+    <rect x="36" y="40" width="12" height="45" rx="2"/>
+    <rect x="52" y="25" width="12" height="60" rx="2"/>
+    <rect x="68" y="35" width="12" height="50" rx="2"/>
+  </g>
+  
+  <!-- Trend line -->
+  <path d="M 22 60 Q 40 45 70 38" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Data point -->
+  <circle cx="70" cy="38" r="3" fill="currentColor"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+  <!-- Phone/device mockup -->
+  <rect x="25" y="15" width="50" height="70" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+  <!-- Notch -->
+  <rect x="40" y="15" width="20" height="8" rx="2" fill="currentColor"/>
+  <!-- Screen content - gradient bar -->
+  <rect x="30" y="28" width="40" height="3" fill="currentColor" opacity="0.6"/>
+  <rect x="30" y="35" width="30" height="3" fill="currentColor" opacity="0.4"/>
+  <rect x="30" y="42" width="40" height="3" fill="currentColor" opacity="0.6"/>
+  <!-- Image icon -->
+  <circle cx="45" cy="55" r="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M35 65 L45 55 L55 65" fill="none" stroke="currentColor" stroke-width="1.5"/>
+</svg>

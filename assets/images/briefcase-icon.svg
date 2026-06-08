@@ -1,0 +1,10 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+  <!-- Briefcase body -->
+  <rect x="20" y="35" width="60" height="45" rx="3" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <!-- Briefcase handle -->
+  <path d="M35 35 Q35 20 50 20 Q65 20 65 35" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <!-- Lock/latch in middle -->
+  <rect x="47" y="38" width="6" height="8" fill="currentColor"/>
+  <!-- Dividing line -->
+  <line x1="50" y1="35" x2="50" y2="80" stroke="currentColor" stroke-width="1.5"/>
+</svg>

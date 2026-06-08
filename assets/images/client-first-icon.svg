@@ -1,0 +1,16 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main person (highlighted) -->
+  <circle cx="50" cy="28" r="12" fill="currentColor" opacity="0.8"/>
+  <path d="M 50 42 L 35 55 L 35 70 L 65 70 L 65 55 Z" fill="currentColor" opacity="0.8"/>
+  
+  <!-- Left person -->
+  <circle cx="28" cy="35" r="10" fill="currentColor" opacity="0.5"/>
+  <path d="M 28 47 L 18 57 L 18 70 L 38 70 L 38 57 Z" fill="currentColor" opacity="0.5"/>
+  
+  <!-- Right person -->
+  <circle cx="72" cy="35" r="10" fill="currentColor" opacity="0.5"/>
+  <path d="M 72 47 L 62 57 L 62 70 L 82 70 L 82 57 Z" fill="currentColor" opacity="0.5"/>
+  
+  <!-- Heart over main person -->
+  <path d="M 50 25 L 53 22 Q 55 20 57 22 L 60 25 L 57 28 Q 55 30 53 28 L 50 25 Z" fill="currentColor" transform="scale(0.8) translate(5, -5)"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left person -->
+  <circle cx="28" cy="28" r="10" fill="currentColor" opacity="0.7"/>
+  <path d="M 28 40 L 18 52 L 18 70 L 38 70 L 38 52 Z" fill="currentColor" opacity="0.7"/>
+  
+  <!-- Center person (highlighted) -->
+  <circle cx="50" cy="20" r="12" fill="currentColor"/>
+  <path d="M 50 34 L 35 48 L 35 70 L 65 70 L 65 48 Z" fill="currentColor"/>
+  
+  <!-- Right person -->
+  <circle cx="72" cy="28" r="10" fill="currentColor" opacity="0.7"/>
+  <path d="M 72 40 L 62 52 L 62 70 L 82 70 L 82 52 Z" fill="currentColor" opacity="0.7"/>
+  
+  <!-- Support indicator - chat bubble -->
+  <path d="M 48 15 L 52 15 L 52 18 Q 52 20 50 20 Q 48 20 48 18 Z" fill="currentColor" opacity="0.5"/>
+  <ellipse cx="50" cy="16" rx="4" ry="2.5" fill="currentColor" opacity="0.3"/>
+</svg>

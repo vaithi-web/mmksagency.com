@@ -1,0 +1,13 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+  <!-- Medal shape -->
+  <!-- Left ribbon -->
+  <path d="M30 15 L35 15 L35 35 Q35 40 30 42 Z" fill="currentColor"/>
+  <!-- Right ribbon -->
+  <path d="M70 15 L65 15 L65 35 Q65 40 70 42 Z" fill="currentColor"/>
+  <!-- Circle body -->
+  <circle cx="50" cy="50" r="28" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <!-- Inner circle -->
+  <circle cx="50" cy="50" r="20" fill="currentColor" opacity="0.2"/>
+  <!-- Star in center -->
+  <path d="M50 38 L54 48 L65 48 L56 55 L60 65 L50 58 L40 65 L44 55 L35 48 L46 48 Z" fill="currentColor"/>
+</svg>

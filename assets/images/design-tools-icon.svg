@@ -1,0 +1,25 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Canvas/Artboard -->
+  <rect x="15" y="15" width="60" height="60" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+  
+  <!-- Paint brush -->
+  <path d="M 75 25 Q 78 20 82 20 L 85 20 L 85 25 Q 78 28 75 35" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <rect x="73" y="30" width="2" height="15" fill="currentColor"/>
+  
+  <!-- Color palette -->
+  <circle cx="75" cy="60" r="12" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  
+  <!-- Color dots on palette -->
+  <circle cx="70" cy="56" r="2" fill="currentColor" opacity="0.8"/>
+  <circle cx="75" cy="53" r="2" fill="currentColor" opacity="0.6"/>
+  <circle cx="80" cy="56" r="2" fill="currentColor" opacity="0.4"/>
+  <circle cx="80" cy="62" r="2" fill="currentColor" opacity="0.7"/>
+  <circle cx="75" cy="65" r="2" fill="currentColor" opacity="0.5"/>
+  
+  <!-- Design elements on canvas -->
+  <g stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.6">
+    <circle cx="40" cy="30" r="8"/>
+    <rect x="25" y="45" width="12" height="12" rx="2"/>
+    <path d="M 55 55 L 60 45 L 62 55 Z"/>
+  </g>
+</svg>
