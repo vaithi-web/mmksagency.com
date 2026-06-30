@@ -799,6 +799,35 @@ img {
   background: linear-gradient(180deg, rgba(15,23,42,0.04), rgba(15,23,42,0.02));
 }
 
+/* Styles moved from inline in privacy & policy.html */
+.glass-card {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(10,91,255,0.08);
+}
+.page-section { display: none; }
+.page-section.active { display: block; animation: fadeUp 0.4s ease; }
+@keyframes fadeUp { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
+.faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+.faq-answer.open { max-height: 300px; }
+
+/* Navbar brand image sizing moved from inline */
+.navbar-brand img { height: 40px; }
+
+/* Social icon buttons in footer */
+.footer .social-btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  margin: 0 4px !important;
+}
+.footer .social-btn img { width: 18px; height: 18px; }
+
+
 .portfolio-card .card-body {
   background: rgba(255,255,255,0.95);
   color: var(--text);
