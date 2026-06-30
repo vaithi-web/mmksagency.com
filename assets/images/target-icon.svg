@@ -1,12 +1,8 @@
-<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-  <!-- Outer circle -->
-  <circle cx="50" cy="50" r="40" fill="none" stroke="#333" stroke-width="2"/>
-  <!-- Middle circle -->
-  <circle cx="50" cy="50" r="28" fill="none" stroke="#333" stroke-width="2"/>
-  <!-- Inner circle - teal -->
-  <circle cx="50" cy="50" r="16" fill="#2b9ec7"/>
-  <!-- Center dot -->
-  <circle cx="50" cy="50" r="4" fill="#333"/>
-  <!-- Arrow top right -->
-  <path d="M70 30 L78 22 L70 20" fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2">
+  <!-- Target circles -->
+  <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="2"/>
+  <circle cx="50" cy="50" r="28" stroke="currentColor" stroke-width="2"/>
+  <circle cx="50" cy="50" r="16" stroke="currentColor" stroke-width="2"/>
+  <!-- Arrow -->
+  <path d="M50 10 L58 30 L50 28 L42 30 Z" fill="currentColor" stroke="none"/>
 </svg>
