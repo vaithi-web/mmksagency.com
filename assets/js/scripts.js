@@ -116,3 +116,44 @@ function scrollToContact() {
   `;
   document.head.appendChild(style);
 })();
+
+/* Privacy page specific behaviors: navigate sections and FAQ accordion */
+(function(){
+  if (window.lucide && lucide.createIcons) {
+    try { lucide.createIcons(); } catch(e) { }
+  }
+
+  function navigate() {
+    const hash = location.hash.slice(1) || 'privacy-policy';
+    document.querySelectorAll('.page-section').forEach(s => s.classList.remove('active'));
+    const target = document.getElementById(hash);
+    if (target) target.classList.add('active');
+    else {
+      const def = document.getElementById('privacy-policy'); if (def) def.classList.add('active');
+    }
+  }
+  window.addEventListener && window.addEventListener('hashchange', navigate);
+  navigate();
+
+  const mobileToggle = document.getElementById('mobile-toggle');
+  if (mobileToggle) {
+    mobileToggle.addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu'); if (mobileMenu) mobileMenu.classList.toggle('hidden');
+    });
+  }
+
+  const mobileMenuLinks = document.querySelectorAll('#mobile-menu a');
+  if (mobileMenuLinks && mobileMenuLinks.length) {
+    mobileMenuLinks.forEach(a => a.addEventListener('click', () => { const mm = document.getElementById('mobile-menu'); if (mm) mm.classList.add('hidden'); }));
+  }
+
+  document.querySelectorAll('.faq-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const answer = btn.nextElementSibling; if (!answer) return;
+      const isOpen = answer.classList.contains('open');
+      document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('open'));
+      document.querySelectorAll('.faq-toggle').forEach(b => { b.setAttribute('aria-expanded','false'); const icon = b.querySelector('i'); if (icon) icon.style.transform = ''; });
+      if (!isOpen) { answer.classList.add('open'); btn.setAttribute('aria-expanded','true'); const icon = btn.querySelector('i'); if (icon) icon.style.transform = 'rotate(180deg)'; }
+    });
+  });
+})();
