@@ -37,6 +37,19 @@
   color: #8BC34A !important; /* light green */
 }
 
+.btn-light-green {
+  color: #ffffff !important;
+  background-color: #8BC34A !important;
+  border-color: #7cb63d !important;
+}
+
+.btn-light-green:hover,
+.btn-light-green:focus {
+  color: #ffffff !important;
+  background-color: #76aa35 !important;
+  border-color: #679b30 !important;
+}
+
 /* Form inputs styling */
 .form-control,
 .form-control-lg {
@@ -137,11 +150,11 @@ img {
 .nav-link:hover,
 .dropdown-item:hover,
 .navbar-text:hover {
-  color: #ff6b35 !important;
+  color: #16a34a !important;
 }
 
 .nav-link.active {
-  color: #ff6b35 !important;
+  color: #16a34a !important;
   font-weight: 600;
 }
 
@@ -152,7 +165,7 @@ img {
   left: 0;
   right: 0;
   height: 3px;
-  background-color: #ff6b35;
+  background-color: #16a34a;
   border-radius: 3px;
 }
 
@@ -176,8 +189,8 @@ img {
 }
 
 .badge-orange {
-  background: rgba(255, 107, 53, 0.1) !important;
-  color: #ff6b35 !important;
+  background: rgba(22, 163, 74, 0.12) !important;
+  color: #16a34a !important;
   padding: 0.5rem 1rem !important;
   border-radius: 20px;
   font-size: 0.75rem;
