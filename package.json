@@ -1,0 +1,11 @@
+{
+  "name": "mmksagency-site-verification",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "^1.61.0"
+  },
+  "scripts": {
+    "test": "npx playwright test"
+  }
+}
